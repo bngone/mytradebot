@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 source tools/strategy.env
-PAIR_SYMBOL="BTC/USDT"
+PAIR_SYMBOL="EOS/USDT"
 
 docker run --rm -v $(pwd)/user_data/:/freqtrade/user_data/ \
         freqtradeorg/freqtrade:develop download-data \
